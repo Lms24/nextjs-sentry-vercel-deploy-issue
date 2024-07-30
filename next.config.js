@@ -34,8 +34,8 @@ module.exports = withSentryConfig(moduleExports, {
   // For all available options, see:
   // https://github.com/getsentry/sentry-webpack-plugin#options
 
-  org: "ocavue",
-  project: "javascript-nextjs",
+  org: "sentry-sdks",
+  project: "sentry-javascript-nextjs",
 
   // Only print logs for uploading source maps in CI
   silent: !process.env.CI,
